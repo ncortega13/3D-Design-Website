@@ -1910,7 +1910,7 @@ span.users {
 .about-content p {
     font-size: 20px;
     letter-spacing: 0.40px;
-    line-height: 24px;
+    line-height: 25px;
     margin-bottom: 0px;
 }
 
@@ -1927,7 +1927,7 @@ span.users {
     padding-left: 25px;
     margin: 10px 0px;
     position: relative;
-    font-size: 15px;
+    font-size: 20px;
 }
 .marker-list li::after {
     position: absolute;
@@ -1946,9 +1946,9 @@ span.users {
 .marker-list2 li {
     color: #777;
     padding-left: 30px;
-    margin: 0px 0px;
+    margin: 10px 0;
     position: relative;
-    font-size: 15px;
+    font-size: 20px;
 }
 .marker-list2 li::after {
     position: absolute;
