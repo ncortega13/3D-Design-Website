@@ -788,7 +788,7 @@ div#preloader {
     display: inline-block;
     border:1px solid #000000;
     margin-top: 20px;
-    margin-left: 55px;
+    margin-left: 95px;
 }
 .pdf-btn a:hover{
     background: transparent;
@@ -808,7 +808,7 @@ div#preloader {
     display: inline-block;
     border:1px solid #000000;
     margin-top: 20px;
-    margin-left: 35px;
+    margin-left: 70px;
 }
 .ppt-btn a:hover{
     background: transparent;
@@ -820,6 +820,26 @@ div#preloader {
 .pdf-ppt-icon {
     width: 25px;
     height: 30px;
+}
+.view-btn a {
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #E6922E;
+    display: inline-block;
+    border:1px solid #E6922E;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+.view-btn a:hover{
+    background: transparent;
+    color:#E6922E;
+    border:1px solid #E6922E;
+    transition: all 0.4s ease 0s;
 }
 /*----------------------------------------*/
 /*----------------------------------------*/
