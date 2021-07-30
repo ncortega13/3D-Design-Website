@@ -786,15 +786,14 @@ div#preloader {
     padding: 8px 20px;
     background: #960101;
     display: inline-block;
-    border:1px solid #000000;
     margin-top: 20px;
     margin-left: 95px;
 }
 .pdf-btn a:hover{
     background: transparent;
     color:#960101;
-    border:1px solid #000000;
     background: #ffffff;
+    border:1px solid #000000;
     transition: all 0.4s ease 0s;
 }
 .ppt-btn a {
@@ -806,7 +805,6 @@ div#preloader {
     padding: 8px 20px;
     background: #d46001;
     display: inline-block;
-    border:1px solid #000000;
     margin-top: 20px;
     margin-left: 70px;
 }
