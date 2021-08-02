@@ -865,64 +865,64 @@ span.users {
     font-size: 25px;
     font-weight: 100;
     color: #E6922E;
-    padding-right: 13px;
-    padding-left: 30px;
-    line-height: 20px;
+    display:table;
+    margin:0 auto;
+    padding-bottom: 5px;
 }
 .prices2 {
     font-size: 25px;
     font-weight: 100;
     color: #E6922E;
-    padding-right: 5px;
-    padding-left: 10px;
-    line-height: 20px;
+    display:table;
+    margin:0 auto;
+    padding-bottom: 5px;
 }
 .prices3 {
     font-size: 20px;
     font-weight: 100;
     color: #444;
-    padding-right: 5px;
-    padding-left: 5px;
+    display:table;
+    margin:0 auto;
     line-height: 30px;
 }
 .prices4 {
     font-size: 20px;
     font-weight: 100;
     color: #444;
-    padding-right: 5px;
-    padding-left: 53px;
+    display:table;
+    margin:0 auto;
     line-height: 30px;
 }
 .prices5 {
     font-size: 20px;
     font-weight: 100;
     color: #444;
-    padding-right: 5px;
-    padding-left: 40px;
+    display:table;
+    margin:0 auto;
     line-height: 30px;
 }
 .prices6 {
     font-size: 20px;
     font-weight: 100;
     color: #444;
-    padding-right: 5px;
-    padding-left: 15px;
+    display:table;
+    margin:0 auto;
     line-height: 30px;
 }
 .prices7 {
     font-size: 20px;
     font-weight: 100;
     color: #444;
-    padding-right: 5px;
-    padding-left: 45px;
+    display:table;
+    margin:0 auto;
     line-height: 30px;
 }
 .prices8 {
     font-size: 20px;
     font-weight: 100;
     color: #444;
-    padding-right: 5px;
-    padding-left: 30px;
+    display:table;
+    margin:0 auto;
     line-height: 30px;
 }
 
@@ -955,7 +955,9 @@ span.users {
     display: inline-block;
     border:1px solid #E6922E;
     margin-top: 20px;
-    margin-left: 53px;
+    display:table;
+    margin:0 auto;
+    margin-top: 5px;
 }
 .price-btn a:hover{
     background: transparent;
