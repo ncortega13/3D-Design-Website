@@ -803,64 +803,72 @@ span.users {
     font-weight: 100;
     color: #E6922E;
     padding-right: 13px;
-    padding-left: 30px;
-    line-height: 20px;
+    display:table;
+    margin:0 auto;
+    padding-bottom: 5px;
 }
 .prices2 {
     font-size: 25px;
     font-weight: 100;
     color: #E6922E;
     padding-right: 5px;
-    padding-left: 10px;
-    line-height: 20px;
+    display:table;
+    margin:0 auto;
+    padding-bottom: 5px;
 }
 .prices3 {
     font-size: 20px;
     font-weight: 100;
     color: #444;
     padding-right: 5px;
-    padding-left: 5px;
-    line-height: 30px;
+    display:table;
+    margin:0 auto;
+    padding-bottom: 5px;
 }
 .prices4 {
     font-size: 20px;
     font-weight: 100;
     color: #444;
     padding-right: 5px;
-    padding-left: 53px;
-    line-height: 30px;
+    display:table;
+    margin:0 auto;
+    padding-bottom: 5px;
 }
 .prices5 {
     font-size: 20px;
     font-weight: 100;
     color: #444;
     padding-right: 5px;
-    padding-left: 40px;
-    line-height: 30px;
+    display:table;
+    margin:0 auto;
+    padding-bottom: 5px;
 }
 .prices6 {
     font-size: 20px;
     font-weight: 100;
     color: #444;
     padding-right: 5px;
-    padding-left: 15px;
-    line-height: 30px;
+    display:table;
+    margin:0 auto;
+    padding-bottom: 5px;
 }
 .prices7 {
     font-size: 20px;
     font-weight: 100;
     color: #444;
     padding-right: 5px;
-    padding-left: 45px;
-    line-height: 30px;
+    display:table;
+    margin:0 auto;
+    padding-bottom: 5px;
 }
 .prices8 {
     font-size: 20px;
     font-weight: 100;
     color: #444;
     padding-right: 5px;
-    padding-left: 30px;
-    line-height: 30px;
+    display:table;
+    margin:0 auto;
+    padding-bottom: 5px;
 }
 
 
@@ -892,7 +900,8 @@ span.users {
     display: inline-block;
     border:1px solid #E6922E;
     margin-top: 20px;
-    margin-left: 53px;
+    display:table;
+    margin:0 auto;
 }
 .price-btn a:hover{
     background: transparent;
@@ -1667,6 +1676,69 @@ span.users {
 .intro-carousel .owl-item.active .slider-images img{
 	transform: scale(1.1);
 	transition: 10s;
+}
+.pdf-btn a {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 8px 20px;
+    background: #960101;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 95px;
+}
+.pdf-btn a:hover{
+    background: transparent;
+    color:#960101;
+    background: #ffffff;
+    border:1px solid #000000;
+    transition: all 0.4s ease 0s;
+}
+.ppt-btn a {
+    color: rgb(255, 255, 255);
+    transition: all 0.4s ease 0s;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 8px 20px;
+    background: #d46001;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.ppt-btn a:hover{
+    background: transparent;
+    color:#d46001;
+    border:1px solid #000000;
+    background: #ffffff;
+    transition: all 0.4s ease 0s;
+}
+.pdf-ppt-icon {
+    width: 25px;
+    height: 30px;
+}
+.view-btn a {
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #E6922E;
+    display: inline-block;
+    border:1px solid #E6922E;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+.view-btn a:hover{
+    background: transparent;
+    color:#E6922E;
+    border:1px solid #E6922E;
+    transition: all 0.4s ease 0s;
 }
 /*----------------------------------------*/
 /*  16.	Breadcumbs  CSS
