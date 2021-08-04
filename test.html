@@ -39,20 +39,15 @@
 	</head>
 		
         <body>
-        <header class="header-one">
         <div id="preloader"></div>
         <!--Navigation bar-->
-        <div id="nav-placeholder">
-
-        </div>
-
+        <script src="//code.jquery.com/jquery.min.js"></script>
         <script>
-        $(function(){
-        $("#nav-placeholder").load("header.html");
+        $.get("navigation.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
         });
         </script>
         <!-- end of Navigation bar -->
-        </header>
         <!-- header end -->
         <!-- Start Intro Area -->
 		<div class="slide-area fix" data-stellar-background-ratio="0.6">
