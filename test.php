@@ -41,12 +41,9 @@
         <body>
         <div id="preloader"></div>
         <!--Navigation bar-->
-        <script src="//code.jquery.com/jquery.min.js"></script>
-        <script>
-        $.get("header.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
-        </script>
+        <?
+		php include 'header.php';
+		?>
         <!-- end of Navigation bar -->
         <!-- header end -->
         <!-- Start Intro Area -->
