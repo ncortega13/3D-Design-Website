@@ -41,9 +41,15 @@
         <body>
         <div id="preloader"></div>
         <!--Navigation bar-->
-        <?
-		php include 'header.php';
-		?>
+        <div id="nav-placeholder">
+
+		</div>
+		
+		<script>
+		$(function(){
+		  $("#nav-placeholder").load("header.html");
+		});
+		</script>
         <!-- end of Navigation bar -->
         <!-- header end -->
         <!-- Start Intro Area -->
